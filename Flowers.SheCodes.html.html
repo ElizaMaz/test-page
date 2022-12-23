@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html  lang = "en"> 
+  <head> 
+    <meta  charset = "UTF-8" /> 
+    <meta  name = "viewport"  content ="width=device-width, initial-scale=1.0" /> 
+    <title>The scent of flowers💐</title>
+  </head>
+  <style>
+    body {
+      background:#f7e8e3;
+      background-size: 100%;
+      margin: 15px;
+      }
+   
+    h1 {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      color:rgb(255, 255, 255);
+      background-color: #b99a92;
+      border-radius: 10px;
+    }
+
+   h2 {
+      text-align:center;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+   img {
+     display: block;
+     margin: 0 auto ;
+     max-width: 100%;
+     border-radius: 10px;
+    }
+
+    .partnership {
+     text-align: center;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 1.5;
+     font-variant: normal;
+     font-family: 'Courier New', Courier, monospace;
+     margin: 30px 0;
+     padding: 30px;
+     color: #ffffff;
+     background-color: #946659;
+     border-radius: 10px;
+    }
+    
+    .learn-more {
+      text-decoration: underline;
+      font-size: 17px;
+      color: #754e44
+    }
+
+    .page-creator {
+      text-decoration: none;
+      font-size: 17px;
+      text-align: right;
+      color: #754e44
+    }
+
+    button {
+      display: block;
+      margin: 30px auto;
+      background: #946659;
+      color: rgb(245, 240, 233);
+      font-size: 20px;
+      padding: 10px 20px;
+      border: 3px solid #946659;
+    }
+
+    button:hover {
+	  border: 3px dotted #c27e50;
+	  color: #000000;
+	  background: rgba(0,0,0,0); 
+    }
+     
+    .link {
+      display: inline;
+      justify-content: space-between;
+      text-decoration: none;
+      font-size: 17px;
+      color: #754e44
+    }
+     
+    div1 {
+     font-size: 17px;
+     float: left;
+    }
+
+    div2 {
+     font-size: 17px;
+     float: right;
+     color: #754e44
+    }
+
+    main-div:after {
+     content:'';
+     display:table;
+     clear:both;
+    }
+    
+  
+</style>
+    <body>
+        <h1>
+            Beautiful, tender and fragrant..
+        </h1>
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/590/original/596597cc7fbc772a1d719321ab9f38e7.jpg?1664995364"
+        alt="bouquet of flowers" 
+        width="350"/>
+        <aside class="partnership">
+         Flowers have existed since ancient times. 
+         People valued them for their healing power, but more for their beauty. 
+         From them they began to create various decorations. 
+         This is how the art of floristry originated and has survived to this day.
+        </aside>
+        <h2>
+          Tell me, what are your favorite flowers?
+        </h2>
+      
+        <button> 👉🏻 Click 👈🏻 </button>
+  
+        <div1>
+        <a 
+         href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BB%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0_(%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD)"
+         target="_blank" >
+         More information about flowers and floristry
+        </a>
+        </div1>
+
+        <div2>
+         This page was built by <a href="https://www.instagram.com/li._.ssa/">Eliza Mazurenko</a>
+        </a>
+        </div2>
+         
+        <script>
+          function contactUs() { 
+
+           let name = prompt("What is your name?");
+           let flower = prompt("What is your favorite flower??");
+          
+           alert("Good choice, " + name + "🥰 The " + flower + "is a very beautiful and noble flower, many girls like it!🌸");
+            
+            } 
+
+           let contactButton = document.querySelector("button");
+           contactButton.addEventListener("click", contactUs);
+        </script>
+    </body>
+</html>
